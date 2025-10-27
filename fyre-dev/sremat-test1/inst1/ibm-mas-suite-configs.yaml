@@ -8,8 +8,8 @@ ibm_mas_suite_configs:
     mas_config_kind: "slscfgs"
     mas_config_api_version: "config.mas.ibm.com"
     use_postdelete_hooks: true
-    registration_key: <path::fyre-dev38E3IU2HR83UDEIWDU2I321eywu3dusls#registration_key>
+    registration_key: <path::fyre-dev/sremat-test1/inst1/sls#registration_key>
     url: "https://sls.mas-inst1-sls.svc"
     ca:
       crt: |
-        <path::fyre-dev38E3IU2HR83UDEIWDU2I321eywu3dusls#ca_b64 | base64decode>
+        <path::fyre-dev/sremat-test1/inst1/sls#ca_b64 | base64decode>
