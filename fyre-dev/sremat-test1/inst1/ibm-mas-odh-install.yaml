@@ -1,0 +1,39 @@
+---
+merge-key: "fyre-dev/sremat-test1/inst1"
+
+ibm_odh:
+  openshift_namespace: openshift-operators
+  odh_pipeline_channel: latest
+  odh_pipeline_installplan: manual
+  pipeline_catalog_source: redhat-operators
+  service_mesh_namespace: openshift-operators
+  service_mesh_channel: stable
+  service_mesh_catalog_source: redhat-operators
+  service_mesh_sourceNamespace: openshift-marketplace
+  operatorName: openshift-pipelines-operator-rh
+  serverless_channel: stable
+  authorino_catalog_source: community-operators
+  odh_channel: fast
+  odh_catalog_source: community-operators
+  odh_operator_version: opendatahub-operator.v2.19.0
+  odh_namespace: opendatahub
+
+  aiservice_namespace: inst1-aiservice
+  pull_secret_name: "<path::fyre-dev/sremat-test1/ibm_entitlement#image_pull_secret_b64>"
+
+  # Serverless Operator
+  serverless_namespace: openshift-serverless
+  serverless_operator_name: serverless-operator
+  serverless_operator_source: redhat-operators
+  serverless_operator_sourceNamespace: openshift-marketplace
+
+  # OpenDataHub Operator
+  opendatahub_OperatorGroup_name: opendatahub-operator-group
+  opendatahub_name: opendatahub-operator
+  opendatahub_namespace: opendatahub
+  opendatahub_installPlanApproval: Automatic
+  opendatahub_channel: fast
+  opendatahub_source: community-operators
+  opendatahub_sourceNamespace: openshift-marketplace
+  aiservice_odh_model_deployment_type: "serverless"
+  primary_storage_class: nfs-client
