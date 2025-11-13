@@ -4,13 +4,7 @@ ibm_sls:
   sls_channel: 
   sls_entitlement_file: <path::fyre-dev/sremat-test1/sls01/license#license_file>
   ibm_entitlement_key: <path::fyre-dev/sremat-test1/ibm_entitlement#image_pull_secret_b64>
-  sls_service: "<ref:gitops/fyre-noble4-dev/icn/00234750/abc12345/sls-params.yaml>"
-
-  if [ ! -z "$STANDALONE_SLS_SERVICE" ]; then
-        CLEAN_PATH=$(echo "$STANDALONE_SLS_SERVICE" | sed 's#<ref:##; s#>##')
-        IFS='/' read -r -a PARTS <<< "$CLEAN_PATH"
-        ICN="${PARTS[3]}"
-  fi    
+  #sls_service: "<ref:gitops/fyre-noble4-dev/icn/00234750/abc12345/sls-params.yaml>"  
   ibm_customer_number: "00234750"
 
 
