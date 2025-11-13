@@ -1,0 +1,31 @@
+merge-key: "fyre-dev/sremat-test1/sls01"
+
+account:
+  id: fyre-dev
+
+region:
+  id: us-east-2
+
+cluster:
+  id: sremat-test1
+  url: https://api.sremat-test1.cp.fyre.ibm.com:6443
+
+instance:
+  id: sls01
+
+sm:
+  aws_access_key_id: "<path::fyre-dev/sremat-test1/aws#sm_aws_access_key_id>"
+  aws_secret_access_key: "<path::fyre-dev/sremat-test1/aws#sm_aws_secret_access_key>"
+
+
+
+mas_wipe_mongo_data: false
+
+
+
+
+
+
+
+
+
