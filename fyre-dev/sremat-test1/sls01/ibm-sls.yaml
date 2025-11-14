@@ -4,7 +4,7 @@ ibm_sls:
   sls_channel: 
   sls_entitlement_file: <path::fyre-dev/sremat-test1/sls01/license#license_file>
   ibm_entitlement_key: <path::fyre-dev/sremat-test1/ibm_entitlement#image_pull_secret_b64>
-  sls_sls_service:<ref:gitops/fyre-noble4-dev/icn/00234750/abc12345/sls-params.yaml>
+  sls_sls_service: <ref:gitops/fyre-noble4-dev/icn/00234750/abc12345/sls-params.yaml>
   ibm_customer_number: ""
 
   # aws docdb
