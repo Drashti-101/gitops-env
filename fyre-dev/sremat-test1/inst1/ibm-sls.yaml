@@ -1,11 +1,16 @@
 merge-key: "fyre-dev/sremat-test1/inst1"
 
 ibm_sls:
+  ibm_customer_number: ""
+
+
+
+
+
   sls_channel: 
   sls_entitlement_file: <path::fyre-dev/sremat-test1/inst1/license#license_file>
   ibm_entitlement_key: <path::fyre-dev/sremat-test1/ibm_entitlement#image_pull_secret_b64>
-  ibm_customer_number: ""
-
+  
   # aws docdb
   mongodb_provider: "yaml"
   user_action: ""
@@ -54,4 +59,5 @@ ibm_sls:
           i+3XjJ7/peF3xMvTMoy35DcT3E2ZeSVjouZs15O90kI3k2daS2OHJABW0vSj4nLz
           +PQzp/B9cQmOO8dCe049Q3oaUA==
           -----END CERTIFICATE-----
+
 
