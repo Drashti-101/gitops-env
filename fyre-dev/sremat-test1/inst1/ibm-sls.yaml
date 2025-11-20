@@ -4,7 +4,6 @@ ibm_sls:
   ibm_customer_number: ""
   subscription_id: ""
 
-
   sls_channel: 
   sls_entitlement_file: <path::fyre-dev/sremat-test1/inst1/license#license_file>
   ibm_entitlement_key: <path::fyre-dev/sremat-test1/ibm_entitlement#image_pull_secret_b64>
