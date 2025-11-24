@@ -1,5 +1,5 @@
 merge-key: "fyre-dev/sremat-test1/inst1"
 
 ibm_sls:
-  ibm_customer_number: "00234750"
+  ibm_customer_number: "1223"
   subscription_id: "abc12345"
