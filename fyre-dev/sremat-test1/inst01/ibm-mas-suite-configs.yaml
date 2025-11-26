@@ -9,7 +9,7 @@ ibm_mas_suite_configs:
     mas_config_api_version: "config.mas.ibm.com"
     use_postdelete_hooks: true
     jdbc_type: incluster-db2
-    jdbc_connection_url_additional_params:
+    jdbc_connection_url_additional_params: secure=true
     jdbc_instance_name: <path::fyre-dev/sremat-test1/inst01/jdbc/db2wh-inst01-/config#jdbc_instance_name>
     jdbc_instance_username: <path::fyre-dev/sremat-test1/inst01/jdbc/db2wh-inst01-/credentials#username>
     jdbc_instance_password: <path::fyre-dev/sremat-test1/inst01/jdbc/db2wh-inst01-/credentials#password>
